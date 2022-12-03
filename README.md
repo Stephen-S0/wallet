@@ -17,7 +17,7 @@ GET请求
 http://127.0.0.1:8080/wallet/balance?userId=1
 ```
 
-![image-20221203143153350](/Users/stephen/Library/Application Support/typora-user-images/image-20221203143153350.png)
+![image-20221203143153350](./images/image-20221203143153350.png)
 
 2、用户消费100元的接口
 
@@ -26,7 +26,7 @@ POST请求
 http://127.0.0.1:8080/wallet/consume
 ```
 
-![image-20221203143052988](/Users/stephen/Library/Application Support/typora-user-images/image-20221203143052988.png)
+![image-20221203143409864](./images/image-20221203143409864.png)
 
 3、用户退款20元接口
 
@@ -36,7 +36,7 @@ http://127.0.0.1:8080/wallet/refund
 userId=1&refund=20
 ```
 
-![image-20221203143728883](/Users/stephen/Library/Application Support/typora-user-images/image-20221203143728883.png)
+![image-20221203143728883](./images/image-20221203143728883.png)
 
 4、查询用户钱包金额变动明细的接口
 
@@ -45,7 +45,7 @@ GET请求
 http://127.0.0.1:8080/wallet/detail?userId=1
 ```
 
-![image-20221203144020704](/Users/stephen/Library/Application Support/typora-user-images/image-20221203144020704.png)
+![image-20221203144020704](./images/image-20221203144020704.png)
 
 ### 二、建语句
 
