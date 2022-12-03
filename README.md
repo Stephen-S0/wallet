@@ -17,18 +17,17 @@ GET请求
 http://127.0.0.1:8080/wallet/balance?userId=1
 ```
 
-![image-20221203143153350](https://raw.githubusercontent.com/Stephen-S0/wallet/main/images/image-20221203143153350.png)
-
-
+![image-20221203143153350](https://img-blog.csdnimg.cn/3f6638764c0b41e1ab0c7441b2b63382.png)
 
 2、用户消费100元的接口
 
 ```
 POST请求
 http://127.0.0.1:8080/wallet/consume
+userId=1&consume=100
 ```
 
-![image-20221203143409864](https://raw.githubusercontent.com/Stephen-S0/wallet/main/images/image-20221203143409864.png)
+![image-20221203143409864](https://img-blog.csdnimg.cn/dfd1b5b21ae24caf85afa08f18a97f9f.png)
 
 3、用户退款20元接口
 
@@ -38,7 +37,7 @@ http://127.0.0.1:8080/wallet/refund
 userId=1&refund=20
 ```
 
-![image-20221203143728883](https://raw.githubusercontent.com/Stephen-S0/wallet/main/images/image-20221203143728883.png)
+![image-20221203143728883](https://img-blog.csdnimg.cn/61449496a78c445397e4ca8f4aaae30d.png)
 
 4、查询用户钱包金额变动明细的接口
 
@@ -47,7 +46,7 @@ GET请求
 http://127.0.0.1:8080/wallet/detail?userId=1
 ```
 
-![image-20221203144020704](https://raw.githubusercontent.com/Stephen-S0/wallet/main/images/image-20221203144020704.png)
+![image-20221203144020704](https://img-blog.csdnimg.cn/98a8c287e5734c8abdadb30a4dc80ef5.png)
 
 ### 二、建语句
 
